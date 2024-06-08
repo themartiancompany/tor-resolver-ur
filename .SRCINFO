@@ -1,0 +1,14 @@
+pkgbase = tor-resolver
+	pkgdesc = Returns onion addresses for hostnames.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/tor-resolver
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = libcrash-bash
+	source = tor-resolver-37a823698af026859e2ef5e6e2297d20f3438c33.zip::https://github.com/themartiancompany/tor-resolver/archive/37a823698af026859e2ef5e6e2297d20f3438c33.zip
+	sha256sums = 375635a31d6a633bf6158cee3e40278507ff541c97d6f59d8be44ce616b92a59
+
+pkgname = tor-resolver
